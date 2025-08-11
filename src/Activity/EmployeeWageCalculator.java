@@ -1,4 +1,4 @@
-package jeffersonpones;
+package Activity;
 
 import java.util.Scanner;
 
