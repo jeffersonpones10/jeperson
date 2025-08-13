@@ -2,7 +2,7 @@ package Activity;
 
 import java.util.Scanner;
 
-public class EmployeeWageCalculator {
+public class Activity4 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

@@ -3,7 +3,7 @@ package Banking;
 
 import java.util.Scanner;
 
-public class Bank{
+public class BankApp{
     
     private int accountNo;
     private float initialBalance;

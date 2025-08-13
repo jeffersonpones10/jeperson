@@ -3,9 +3,9 @@ package Activity;
 
 
 import java.util.Scanner;
-import Banking.Bank;
+import Banking.BankApp;
 
-public class Act5 {
+public class Activity5 {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -16,7 +16,7 @@ public class Act5 {
         System.out.println("2. Doctors Appointment");
         System.out.println("3. Shopping");
         
-        Bank bApp[] = new Bank[10];
+        BankApp bApp[] = new BankApp[10];
         
         System.out.print("Enter choice: ");
         int choice = sc.nextInt();
@@ -32,7 +32,7 @@ public class Act5 {
                 
                 switch(action){
                     case 1:
-                        bApp[0] = new Bank();
+                        bApp[0] = new BankApp();
                         System.out.print("Enter Account No.: ");
                         bApp[0].setAccountNo(sc.nextInt());
                         System.out.print("Enter Account Pin: ");
@@ -43,7 +43,7 @@ public class Act5 {
                         break;
                     case 2:
                         int attempts = 3;
-                        Bank bc = new Bank();
+                        BankApp bc = new BankApp();
                         if (bApp[0] == null) {
                                  System.out.println("Aysa pardy wapay ni register");
         break;
